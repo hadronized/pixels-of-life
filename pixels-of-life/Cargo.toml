@@ -1,0 +1,18 @@
+[package]
+name = "pixels-of-life"
+version = "0.1.0"
+authors = ["Dimitri Sabadie <dimitri.sabadie@gmail.com>"]
+edition = "2018"
+
+[lib]
+name = "pixels_of_life"
+path = "src/lib.rs"
+
+[dependencies]
+glfw = "0.39.1"
+luminance = "0.41"
+luminance-derive = "0.6.1"
+luminance-front = "0.2.3"
+luminance-glfw = "0.13.1"
+luminance-windowing = "0.9.1"
+rand = "0.7.3"

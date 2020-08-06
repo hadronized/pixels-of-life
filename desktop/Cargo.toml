@@ -1,0 +1,11 @@
+[package]
+name = "pixels-of-life-desktop"
+version = "0.1.0"
+authors = ["Dimitri Sabadie <dimitri.sabadie@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+glfw = "0.39.1"
+luminance-glfw = "0.13.1"
+luminance-windowing = "0.9.1"
+pixels-of-life = "0.1"

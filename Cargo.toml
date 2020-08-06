@@ -1,0 +1,12 @@
+[workspace]
+
+members = [
+  "pixels-of-life",
+  "desktop",
+  "web",
+]
+
+default-members = ["pixels-of-life", "desktop"]
+
+[patch.crates-io]
+pixels-of-life = { path = "./pixels-of-life" }
